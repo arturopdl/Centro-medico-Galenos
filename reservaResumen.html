@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toma de hora</title>
-
+    <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
         body {
             background-image: url('images/hero-bg.png');
@@ -16,7 +14,6 @@
         }
     </style>
 </head>
-
 <body>
     <!-- barra de naveacion usuario-->
     <header>
@@ -30,7 +27,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="reservaHora.html">Reservar Hora</a>
+                            <a class="nav-link disabled" href="reservaHora.html">Reservar Hora</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled" href="medicos.html">Médicos</a>
@@ -58,43 +55,18 @@
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-6 offset-md-3">
-                    <h2>Reserva de Cita Médica</h2>
-                    <form>
-                        <div class="mb-3">
-                            <label for="nombre" class="form-label">Run</label>
-                            <input type="text" class="form-control" id="nombre" name="nombre" required>
-                        </div>
-                        <div class="form-group">
-                            <div class="mb-3">
-                                <label for="" class="form-label">Especialidad</label>
-                                <select class="form-select form-select-lg" name="" id="">
-                                    <option selected>Medicina general</option>
-                                    <option value="">Odontologia</option>
-                                    <option value="">Terapeura Ocupacional</option>
-                                    <option value="">Psicologia</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="fecha" class="form-label">Fecha  de atención</label>
-                            <input type="date" class="form-control" id="fecha" name="fecha" required>
-                        </div>
-                        <!--
-                        <button type="submit" class="btn btn-primary">Aceptar</button>
-                        -->
-                        <div class="d-flex justify-content-center">
-                            <a href="reservaFiltro.html" class="btn btn-success">Aceptar</a>
-                        </div>
-                        
-                    </form>
+                    <h2>Resumen hora de atencion</h2>
+                    <h1>Lista con id, fecha, hora, especialidad, medico especista</h1>
                 </div>
             </div>
         </div>
     </main>
+
+    <footer>
+
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-
 </body>
-
 </html>
